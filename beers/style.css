@@ -1,0 +1,21 @@
+.page-btn{
+    padding: 10px;
+    margin: 5px;
+}
+
+.beer-img{
+    width: 30vw;
+}
+
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    overflow: auto;
+}
+
+.beer{
+    width: 30vw;
+    margin: 3px;
+}

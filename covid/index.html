@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19</title>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="/library/moment.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="global-cases">
+            <h2 class="title">Cases</h2>
+            <div class="total">
+                <p>total</p>
+                <h1 id="gct">Loading...</h1>
+            </div>
+            <div class="daily">
+                <p>daily</p>
+                <h1 id="gcd">Loading...</h1>
+            </div>
+        </div>
+        <div class="global-deaths">
+            <h2 class="title">Deaths</h2>
+            <div class="total">
+                <p>total</p>
+                <h1 id="gdt">Loading...</h1>
+            </div>
+            <div class="daily">
+                <p>daily</p>
+                <h1 id="gdd">Loading...</h1>
+            </div>
+        </div>
+        <div class="by-country">
+            <h1 class="last">last</h1>
+            <input type="text" placeholder="Please type country name eg. 'Israel'">
+            <button class="biggerToSmall">Bigger To Small</button>
+            <button class="mostCasesMoreThan1m">More Then 1M</button>
+            <table>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

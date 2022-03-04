@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.dark-mode{
+    background-color: darkslategrey;
+    color: antiquewhite;
+}
+
+.container{
+    border: tomato 3px solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70vw;
+    padding: 20px;
+}
+
+.title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+
+button{
+    font-family: 'Roboto Mono', monospace;
+}
